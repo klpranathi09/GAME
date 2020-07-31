@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:200,400,700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(/back.jpg);
+    background-color: aqua;
+    background-size: cover;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 5em;
+    color: indianred;
+    width: 400px;
+    text-align: center;
+}
+
+.button {
+    background-color: lightsalmon;
+    margin: 30px 0;
+    border-radius: 4px;
+    padding: 10px 15px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+#input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+}
+
+input {
+    width: 20px;
+    margin: 30px;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h1 {
+    color: white;
+    margin: 20px;
+
+    text-align: center;
+
+}
+
+#lives-text {
+    color: white;
+
+}
+
+#message {
+    font-size: 1.em;
+    background-color: chocolate;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+}
